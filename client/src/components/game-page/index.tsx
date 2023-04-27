@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./game-page.css";
 import MainGame from "./main-game/main-game";
+import { socket } from "../../socket";
 
 const GamePage: React.FC = () => {
   const [modeTime, setModeTime] = useState<number>(0);
@@ -12,6 +13,8 @@ const GamePage: React.FC = () => {
     setModeTime(modeTime);
     setModeLimitPoints(modeMaxPoints);
   };
+
+  socket.emit("connection");
 
   return (
     <>
