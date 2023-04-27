@@ -1,0 +1,64 @@
+.results-page-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-page-container span {
+  width: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8vh;
+  font-weight: 600;
+}
+
+.score-text {
+  font-size: 6vh;
+}
+
+.selections-panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 6vh;
+}
+
+.selections-panel h1 {
+  margin: 0;
+}
+
+.choices-panel {
+  width: 400px;
+  text-align: center;
+}
+
+.choices-panel img {
+  width: 250px;
+}
+
+.choices-panel h2 {
+  margin: 0;
+  font-weight: 200;
+}
+
+.next-round-timer {
+  font-size: 4vh;
+  font-weight: 300;
+}
+
+.tie-result {
+  color: #f39c12;
+}
+
+.win-result {
+  color: #2ecc71;
+}
+
+.lose-result {
+  color: #e74c3c;
+}

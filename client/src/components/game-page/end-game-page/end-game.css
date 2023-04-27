@@ -1,0 +1,85 @@
+.end-page-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end-page-container h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 8vh;
+  font-weight: 300;
+}
+
+.end-page-container h2 {
+  margin: 0;
+  font-size: 6vh;
+  font-weight: 200;
+}
+
+.history-container {
+  padding: 1rem;
+  overflow-y: scroll;
+  width: 80%;
+  height: 50vh;
+  background-color: #221029;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem 0;
+  user-select: none;
+}
+
+.history-container::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+.history-container::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.history-container::-webkit-scrollbar-thumb:hover {
+  background-color: #b98bcc;
+}
+
+.history-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.history-info-container h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tie-bg {
+  background-color: #f39c12;
+}
+
+.win-bg {
+  background-color: #2ecc71;
+}
+
+.lose-bg {
+  background-color: #e74c3c;
+}
+
+.next-game-btn {
+  margin-top: 0.5rem;
+  cursor: pointer;
+  padding: 0 2rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #9b59b6;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.5s ease-in-out;
+
+  font-size: 3vh;
+}
+
+.next-game-btn:hover {
+  background-color: white;
+  color: #9b59b6;
+}
